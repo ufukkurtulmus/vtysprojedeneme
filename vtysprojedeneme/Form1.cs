@@ -21,5 +21,11 @@ namespace vtysprojedeneme
         {
             //deneme
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 ekle = new Form2();
+            ekle.ShowDialog();
+        }
     }
 }
