@@ -10,22 +10,11 @@ using System.Windows.Forms;
 
 namespace vtysprojedeneme
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
-        }
-
-        private void groupBox2_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Form2 ekle = new Form2();
-            ekle.ShowDialog();
         }
     }
 }
