@@ -21,5 +21,16 @@ namespace vtysprojedeneme
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            yeniMusteri ekle = new yeniMusteri();
+            ekle.ShowDialog();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
